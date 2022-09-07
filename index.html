@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div>
+      <div class="toggler"><img src="./images/list.svg"></div>
+      <img src="./images/logo.svg" atl="sneakers">
+      <ul>
+        <li>Collections</li>
+        <li>Men</li>
+        <li>Women</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+    <div>
+      <img src="./images/cart3.svg">
+      <div class="circle">0</div>
+      <img src="./images/image-avatar.png" alt="avatar">
+    </div>
+  </header>
+
+  <main>
+
+    <div class="container">
+
+      <div class="images">
+        <div class="pics" data-pic="1"><img src="./images/image-product-1.jpg" alt=""></div>
+        <div class="pics" data-pic="2"><img src="./images/image-product-2.jpg" alt=""></div>
+        <div class="pics" data-pic="3"><img src="./images/image-product-3.jpg" alt=""></div>
+        <div class="pics" data-pic="4"><img src="./images/image-product-4.jpg" alt=""></div>
+        <div class="arrow">
+          <div class="arrow_left"><img src="./images/icon-previous.svg"></div>
+          <div class="arrow_right"><img src="./images/icon-next.svg"></div>
+        </div>
+      </div>
+
+      <div class="thumbnails">
+
+        <div class="slide" data-pic="0"><img src="./images/image-product-1-thumbnail.jpg" alt="" id=""></div>
+        <div class="slide" data-pic="1"><img src="./images/image-product-2-thumbnail.jpg" alt="" id=""></div>
+        <div class="slide" data-pic="2"><img src="./images/image-product-3-thumbnail.jpg" alt="" id=""></div>
+        <div class="slide" data-pic="3"><img src="./images/image-product-4-thumbnail.jpg" alt="" id=""></div>
+      </div>
+    </div>
+
+    <section>
+      <h3>Sneaker Company</h3>
+
+      <h1>Fall Limited Edition Sneakers</h1>
+
+      <p>These low-profile sneakers are your perfect casual wear companion. Featuring a
+        durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+
+      <div class="price">
+        <div>
+          <p>$125.00</p>
+          <span> 50%</span>
+        </div>
+        <p class="old_price">$250.00</p>
+      </div>
+
+      <div>
+        <div class="quantity">
+          <div><img src="./images/minus.jpg" alt="minus" id="minus"></div>
+          <div class="total">0</div>
+          <div><img src="./images/icon-plus.svg" alt="plus" id="plus"></div>
+        </div>
+
+        <button><img src="./images/cart3.svg"> Add to cart</button>
+      </div>
+    </section>
+
+    <div class="expand">
+      <div>
+        <div class="container">
+
+          <div class="pics2" data-pic="1"><img src="./images/image-product-1.jpg" alt=""></div>
+          <div class="pics2" data-pic="2"><img src="./images/image-product-2.jpg" alt=""></div>
+          <div class="pics2" data-pic="3"><img src="./images/image-product-3.jpg" alt=""></div>
+          <div class="pics2" data-pic="4"><img src="./images/image-product-4.jpg" alt=""></div>
+          <div class="exit"><img src="./images/x-circle-fill.svg"></div>
+          <div class="arrow2">
+            <div class="arrow_left2"><img src="./images/icon-previous.svg"></div>
+            <div class="arrow_right2"><img src="./images/icon-next.svg"></div>
+          </div>
+
+
+          <div class="thumbnails">
+
+            <div class="slide2" data-pic="0"><img src="./images/image-product-1-thumbnail.jpg" alt="" id=""></div>
+            <div class="slide2" data-pic="1"><img src="./images/image-product-2-thumbnail.jpg" alt="" id=""></div>
+            <div class="slide2" data-pic="2"><img src="./images/image-product-3-thumbnail.jpg" alt="" id=""></div>
+            <div class="slide2" data-pic="3"><img src="./images/image-product-4-thumbnail.jpg" alt="" id=""></div>
+          </div>
+        </div>
+      </div>
+
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Harold Moreno</a>.
+  </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
